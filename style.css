@@ -1,0 +1,65 @@
+
+body{
+    background-image:url("/image/backdround3.jpeg");
+background-repeat: no-repeat;
+margin: 0;
+padding: 0;
+background-size: cover;
+background-attachment: fixed;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    position: sticky; 
+    z-index: 9999; 
+    top: 0;  
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0px 17px;
+    display: flex;
+    font-size: 1.10rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    transition: 00.6s ease;
+  
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    box-shadow: 5px 10px 30px white;
+}
+#home-page{ 
+    height: 450px;   
+    padding-top: 10%;
+}
+h1{
+    font: size 36px;
+    color: wheat;
+    text-align: center;
+}
+h2{
+    font: size 48px; 
+    color: white;
+    text-align: center;
+}
+h3{
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
