@@ -1,11 +1,13 @@
 
+@media screen {
 body{
     background-image:url("/image/backdround3.jpeg");
 background-repeat: no-repeat;
 margin: 0;
 padding: 0;
-background-size: cover;
-background-attachment: fixed;
+ background-size: cover;
+ background-attachment: fixed;  
+ background-color: black;
 }
 ul{
     list-style: none;
@@ -39,6 +41,8 @@ nav ul li a{
     letter-spacing: 2px;
     transition: 00.6s ease;
   
+  
+  
 }
 nav ul li a:hover{
     border-bottom: 2px solid white;
@@ -48,18 +52,76 @@ nav ul li a:hover{
     height: 450px;   
     padding-top: 10%;
 }
+.container::after{
+    position: relative;
+    cursor: '';
+
+
+}
 h1{
-    font: size 36px;
-    color: wheat;
+    font-size: 80px;
+    color: white;
     text-align: center;
 }
 h2{
-    font: size 48px; 
+    font-size: 60px; 
     color: white;
     text-align: center;
 }
 h3{
-    font-size: 64px;
+    font-size: 35px;
     color: white;
     text-align: center;
+}
+.text{
+    text-align: right;
+
+}
+h1,h2,h3{
+    text-align: start;
+    left: 10%;
+    padding-left: 90px;
+}
+.btn{
+    color: yellow;
+    border: rgb(175, 11, 175);
+    /* border-radius: 20%; */
+
+}
+.button{
+    border: 50px solid;
+
+}
+.cta{
+    display: inline;
+    padding: 10px 30px ;
+    color: thistle;
+    transition: 3s ease;
+    border: 2px solid white;
+    margin-left: 10%;
+    padding-bottom: 20px;
+    width: 40px;
+    height: 150px;
+    text-align: center;
+
+}
+.cta :hover{
+    color: teal;
+    background-color: blueviolet;
+
+}
+.vl {
+    border-left: 3px solid white;
+    height: 200px;
+    size: 10px;
+   margin: 50px;
+}
+  .container{
+      padding: 50px;
+      margin: 50px;
+      border: 50px;
+  }
+}
+p{
+    color: white;
 }
